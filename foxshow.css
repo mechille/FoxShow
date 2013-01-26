@@ -1,0 +1,9 @@
+.foxshow		{overflow:hidden; width:911px; height:457px; position:relative; zoom:1;}
+.foxshow ul img	{width:911px;}
+.foxshow ul li	{float:left; position:relative;}
+.foxshow .prev, .foxshow .next	{width:29px; height:29px; cursor:pointer; text-indent:-9999px; position:absolute;}
+.foxshow .prev	{background:url("images/left.gif") no-repeat;  left:1px; top:170px;}
+.foxshow .next	{background:url("images/right.gif") no-repeat;  right:1px; top:170px;}
+.foxshow .num		{background:#333; padding:4px 0 4px 4px; position:absolute; top:350px;}
+.foxshow .num span	{display:inline-block; background-color:#000; overflow:hidden; margin-right:4px; width:14px; height:14px; cursor:pointer;}
+.foxshow .num span.on	{background-color:#0099FF;}

@@ -7,7 +7,7 @@ $(function() {
 	t = false;
 	str = '';
 	s = 500;
-	a = 3000;
+	a = 5000;
 	w = $('#ac').attr('w');		//单个图片宽度
 	n = $('#ac li').length;		//图片个数
 	nw = n*18;					//id=ni的宽度
